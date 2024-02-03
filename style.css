@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    list-style-type: none;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 30px; 
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container-fluid{
+    background-color: #202124;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 15px;
+}
+
+  
