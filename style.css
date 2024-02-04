@@ -102,3 +102,8 @@ p{
     max-width: 100%;
     margin: auto;
 }
+
+.incio, img{
+    width: 750px;
+    max-width: 100%;
+}
