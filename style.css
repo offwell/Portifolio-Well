@@ -3,7 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #F5F5F5;
+}
 
 .navbar-nav {
     display: flex;
@@ -49,9 +51,9 @@
 
 }
 
-.imgmenu{
+/* .imgmenu{
     margin-right: auto;
-}
+} */
 
 .navbar-nav, .container-fluid{
     display: flex;
@@ -89,4 +91,14 @@ body{
 
 p{
     margin: 16px;
+}
+
+.inicio, p, h1{
+    text-align: center;
+}
+
+.inicio{
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
 }
