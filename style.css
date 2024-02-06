@@ -7,6 +7,16 @@ body{
     background-color: #F5F5F5;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(252, 0, 0);
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: black;
+}
+
 .navbar-nav {
     display: flex;
     align-items: center; 
@@ -22,7 +32,7 @@ body{
 .navbar-nav .nav-link {
     text-decoration: none;
     color: rgb(252, 0, 0);
-    transition: color 0.5s ease;
+    transition: color 0.3s ease;
 }
 
 .nav-link:hover{
@@ -41,7 +51,7 @@ body{
 .container-fluid img {
     width: 100%;
     max-width: 65px;
-    margin-right: auto; /* Move a imagem para a esquerda */
+    margin-right: auto; 
 }
 
 .container-fluid img{
@@ -101,6 +111,7 @@ p{
     width: 800px;
     max-width: 100%;
     margin: auto;
+
 }
 
 .incio, img{
