@@ -54,7 +54,7 @@ a:hover{
 .container-fluid img {
     width: 100%;
     max-width: 65px;
-    margin-right: auto; 
+
 }
 
 .container-fluid img{
@@ -63,10 +63,6 @@ a:hover{
     margin: 0px 16px;
 
 }
-
-/* .imgmenu{
-    margin-right: auto;
-} */
 
 .navbar-nav, .container-fluid{
     display: flex;
@@ -104,48 +100,55 @@ body{
 
 p{
     margin: 16px;
+    text-align: justify;
 }
 
-.inicio, p, h1{
+.inicio > h1{
     text-align: center;
 }
 
-.inicio{
+.inicio > p{
+    text-align: justify;
+}
+
+.inicio {
     width: 800px;
     max-width: 100%;
     margin: auto;
 
 }
 
-.incio, img{
+.imgPortifolio{
     width: 750px;
     max-width: 100%;
+    
+
 }
 
 .imgIntro{
     width: 200px;
     max-width: 100%;
-    margin-left: auto;
+    margin: auto;
 }
+
+.introducao >  h2{
+    color: #fc2e2e;
+    margin: auto;
+}
+
+.introducao > h1{
+    color: black;
+    margin: 10px;
+}
+
 
 .introducao{
-    text-align: center;
-    margin: 20px;
-    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 800px;
     max-width: 100%;
-    margin: auto
-}
-
-.introducao, h2{
-    color: #fc2e2e;
-    margin-left: auto;
-}
-
-.introducao, h1{
-    color: black;
-}
-
-.introducao, p{
-    text-align: justify;
+    margin: auto;
+    font-style: italic;
 }
