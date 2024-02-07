@@ -125,18 +125,27 @@ p{
 .imgIntro{
     width: 200px;
     max-width: 100%;
+    margin-left: auto;
 }
 
 .introducao{
     text-align: center;
     margin: 20px;
     font-style: italic;
+    width: 800px;
+    max-width: 100%;
+    margin: auto
 }
 
 .introducao, h2{
     color: #fc2e2e;
+    margin-left: auto;
 }
 
 .introducao, h1{
     color: black;
+}
+
+.introducao, p{
+    text-align: justify;
 }
