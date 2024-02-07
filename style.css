@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,500;1,400&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 body{
     background-color: #F5F5F5;
@@ -117,4 +120,23 @@ p{
 .incio, img{
     width: 750px;
     max-width: 100%;
+}
+
+.imgIntro{
+    width: 200px;
+    max-width: 100%;
+}
+
+.introducao{
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+}
+
+.introducao, h2{
+    color: #fc2e2e;
+}
+
+.introducao, h1{
+    color: black;
 }
