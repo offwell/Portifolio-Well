@@ -20,6 +20,20 @@ a:hover{
     color: black;
 }
 
+.divisor{
+    border: none; 
+    height: 1.5px; 
+    background-color: #202124; 
+    width: 770px;
+    max-width: 100%;
+    margin: 20px auto 20px auto;
+}
+
+.navbar{
+    top: 0;
+    transition: top 0.3s;
+}
+
 .navbar-nav {
     display: flex;
     align-items: center; 
@@ -119,7 +133,7 @@ p{
 }
 
 #imgPortifolio{
-    width: 750px;
+    width: 770px;
     max-width: 100%;
 }
 

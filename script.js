@@ -1,4 +1,11 @@
-let imagem = document.getElementById('imgPortifolio')
+let prevScrollpos = window.pageYOffset;
 
-imagem.style.marginLeft = 'auto'
-imagem.style.marginRight= 'auto'
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
