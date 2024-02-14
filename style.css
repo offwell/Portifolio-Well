@@ -20,6 +20,15 @@ a:hover{
     color: black;
 }
 
+span{
+    margin-left: 15px;
+}
+
+.spanteste a{
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+}
+
 .divisor{
     border: none; 
     height: 1.5px; 
@@ -167,4 +176,8 @@ p{
 
 .imagem-link {
     text-align: center;
+}
+
+.fotoHtml{
+    max-width: 100%;
 }
