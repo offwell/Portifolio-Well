@@ -111,6 +111,7 @@ footer p{
 .redes {
     display: flex;
     justify-content: center;
+    filter: grayscale(100%) brightness(0) invert(1);
 }
 
 .redes img {
