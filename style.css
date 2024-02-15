@@ -208,3 +208,10 @@ p{
 .titulo{
     margin-left: 15px;
 }
+
+.subtitle{
+    text-align: center;
+    margin-right: 620px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
