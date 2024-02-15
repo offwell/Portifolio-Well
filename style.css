@@ -25,12 +25,13 @@ a:hover{
 }
 
 span{
-    margin-left: 15px;
+    margin: 15px;
 }
 
 footer{
     background-color: #202124;
     padding: 16px;
+    margin-top: 16px;
 }
 
 footer p{
@@ -41,6 +42,7 @@ footer p{
 .spanteste a{
     color: rgb(3, 3, 3);
     font-weight: 500;
+    
 }
 
 .divisor{
@@ -191,6 +193,7 @@ p{
 
 .imagem-link {
     text-align: center;
+    margin: 16px;
 }
 
 .fotoHtml{
@@ -202,3 +205,6 @@ p{
     margin: 16px;
 }
 
+.titulo{
+    margin-left: 15px;
+}
