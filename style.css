@@ -31,7 +31,7 @@ footer{
 
 footer p{
     text-align: center;
-    font-weight: bold;
+    color: white;
 }
 
 .spanteste a{
@@ -192,3 +192,7 @@ p{
     max-width: 100%;
 }
 
+.inicio h2 {
+    text-align: center;
+    margin: 16px;
+}
