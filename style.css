@@ -24,6 +24,16 @@ span{
     margin-left: 15px;
 }
 
+footer{
+    background-color: #202124;
+    padding: 16px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
 .spanteste a{
     color: rgb(3, 3, 3);
     font-weight: 500;
@@ -181,3 +191,4 @@ p{
 .fotoHtml{
     max-width: 100%;
 }
+
