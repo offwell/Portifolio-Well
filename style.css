@@ -170,9 +170,9 @@ p{
     margin: auto;
 }
 
+
 .introducao >  h2{
     color: #fc2e2e;
-    margin: auto;
 }
 
 .introducao > h1{
@@ -208,7 +208,7 @@ p{
 
 .titulo{
     margin-left: 15px;
-
+    
 }
 
 .subtitle{
@@ -228,4 +228,33 @@ p{
     margin-bottom: 16px;
 }
 
+@media screen and (max-width: 450px){
+    .introducao{
+        height: 88vh;
+        justify-content: flex-start;
+    }
+
+    .introducao > h1{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .introducao > h2{
+        margin-top: 10px;
+    }
+
+    .imgIntro{
+        width: 280px;
+        margin: 190px 0px;
+        margin-bottom: 80px;
+        margin-top: 100px;
+    }
+
+    #imgPortifolio{
+        content: url(img/projeto-pizza-mobile.png);
+        height: 70vh;
+    }
+
+
+}
 
