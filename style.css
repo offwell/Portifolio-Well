@@ -230,7 +230,7 @@ p{
 
 @media screen and (max-width: 450px){
     .introducao{
-        height: 88vh;
+        height: 100%;
         justify-content: flex-start;
     }
 
