@@ -7,11 +7,14 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 body{
-    background-image: url(img/organicwhite.jpg);
+    background-image: url(img/teste.gif);
+    filter: blur();
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
+    /* backdrop-filter: blur(3px); */
+    
 }
 
 a{
@@ -36,6 +39,10 @@ footer{
 
 footer p{
     text-align: center;
+    color: white;
+}
+
+p{
     color: white;
 }
 
@@ -143,6 +150,14 @@ p{
     text-align: justify;
 }
 
+h1{
+    color: white;
+}
+
+h2{
+    color: red;
+}
+
 .inicio > h1{
     text-align: center;
     margin: 16px;
@@ -177,7 +192,7 @@ p{
 }
 
 .introducao > h1{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* .introducao > p{
@@ -195,6 +210,26 @@ p{
     margin-left: auto;
     margin-right: auto;
     font-style: italic;
+}
+
+.bg-img-blur{
+    background-image: url(img/teste.gif);
+    filter: blur();
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+}
+
+.teste-color{
+    background-color: #0000008f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    border-radius: 5%;
 
 }
 
