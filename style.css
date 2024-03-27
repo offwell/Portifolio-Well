@@ -7,12 +7,12 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 body{
-    background-image: url(img/teste.gif);
-    filter: blur();
-    background-size:cover;
-    background-repeat:no-repeat;
+    background-image: url(img/organicwhite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    /* filter: blur(); */
     /* backdrop-filter: blur(3px); */
     
 }
@@ -27,9 +27,6 @@ a:hover{
     color: black;
 }
 
-span{
-    margin: 15px;
-}
 
 footer{
     background-color: #202124;
@@ -46,10 +43,28 @@ p{
     color: white;
 }
 
+span{
+    margin: 15px;
+    color: white;
+}
+
+.spanteste{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 33rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .spanteste a{
-    color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
     font-weight: 500;
+    transition: color 0.3s ease;
     
+}
+
+.spanteste a:hover{
+    color: red;
 }
 
 .divisor{
@@ -199,6 +214,14 @@ h2{
     margin-bottom:20rem;
 } */
 
+.bgImg{
+    background-image: url(img/90retro.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
 .introducao{
     display: flex;
     flex-direction: column;
@@ -213,7 +236,7 @@ h2{
 }
 
 .bg-img-blur{
-    background-image: url(img/teste.gif);
+    background-image: url(img/ilha.gif);
     filter: blur();
     background-size:cover;
     background-repeat:no-repeat;
@@ -228,8 +251,14 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-style: italic;
-    border-radius: 5%;
+    border-radius: 10%;
+    padding: 16px;
+    margin-bottom: 16px;
+
+}
+
+.teste-color > a{
+    color: white;
 
 }
 
