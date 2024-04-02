@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url(img/organicwhite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 16px;
+}
+
+h3{
+    background-color:#950413;
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    padding: 0 7px;
+}
+
+#icon-perfil{
+    width: 100%;
+    max-width: 150px;
+    margin: 15px;
+}
+
+.perfil {
+    background-image: url(img/sobremim/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.perfil > h1{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wellfoto > a img{
+    width: 100%;
+    max-width: 250px;
+    border: 8px solid white;
+    border-radius: 50%;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    filter: grayscale(100%) brightness(0) invert(1);
+}
+
+.redes img {
+    width: 25px;
+    max-width: 100%;
+    margin: 10px 10px;
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-container img {
+    width: 25px;
+    max-width: 100%;
+    margin: 10px 10px;
+}
