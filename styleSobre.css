@@ -99,15 +99,30 @@ p{
     margin: 10px 10px;
 }
 
+/* .container > p {
+    text-align: justify;
+    margin: 16px 400px;
+} */
+
+.img-container{
+    display: block;
+    width: 100%;
+    max-width: 150px;
+}
+
 .container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.img-um{
     text-align: center;
 }
 
-.container > h1{
+#titulo{
+    text-align: center;
+    margin: 16px;
     margin-top: 25px;
-}
-
-.container > p {
-    text-align: justify;
-    margin: 16px 400px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
