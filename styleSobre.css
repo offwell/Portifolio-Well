@@ -41,6 +41,16 @@ p{
     color: white; 
 }
 
+footer{
+    background-color: #202124;
+    margin-top: 16px;
+    text-align: center;
+}
+
+footer > p{
+    padding: 15px;
+}
+
 #icon-perfil{
     width: 100%;
     max-width: 150px;
@@ -78,8 +88,13 @@ p{
 .redes {
     display: flex;
     justify-content: center;
+    align-items: center;
     filter: grayscale(100%) brightness(0) invert(1);
     margin-top: 9rem;
+}
+
+.redes > p{
+    margin: auto;
 }
 
 .redes img {
@@ -126,3 +141,5 @@ p{
     margin-top: 25px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
+
+
