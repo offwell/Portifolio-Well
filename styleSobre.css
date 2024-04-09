@@ -49,6 +49,7 @@ footer{
 
 footer > p{
     padding: 15px;
+    margin-bottom: 0px;
 }
 
 #icon-perfil{
@@ -138,8 +139,23 @@ footer > p{
 #titulo{
     text-align: center;
     margin: 16px;
-    margin-top: 25px;
+    margin-top: 5%;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+#navColor{
+    background-color: transparent;
+}
 
+#offcanvasDarkNavbar{
+    background-color: transparent;
+}
+
+.text-bg-dark {
+    color: #ffffff !important;
+}
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+    --bs-navbar-color: #dc3545;
+    --bs-navbar-hover-color: #ffffff;
+}
