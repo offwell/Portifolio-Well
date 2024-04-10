@@ -159,3 +159,23 @@ footer > p{
     --bs-navbar-color: #dc3545;
     --bs-navbar-hover-color: #ffffff;
 }
+
+.conteudo{
+    margin-top: 10%;
+    text-align: center;
+    background-color: #000000;
+    padding: 16px;
+    margin-left: 150px;
+    margin-right: 850px;
+    
+}
+
+.conteudo  h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+
+.conteudo p {
+    text-align: justify;
+
+}
